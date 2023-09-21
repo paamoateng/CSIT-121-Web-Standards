@@ -1,0 +1,7 @@
+body { background-color: lightblue; }
+h1 { color: darkblue; text-align:center; font-family: Arial, Verdana, sans-serif;}
+h2 { color: darkcyan; font-family: Arial, Verdana, sans-serif;} 
+h3 { color: darkcyan; font-family: Arial, Verdana, sans-serif;}
+.text { text-transform: uppercase; }
+ul > li { color: darkgoldenrod;  text-transform: none; text-transform: none; line-height: 1.8;}
+ol > li { color: darkgoldenrod; margin-right: 500px; text-transform: none; line-height: 1.8;}
