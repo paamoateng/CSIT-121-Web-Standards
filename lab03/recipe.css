@@ -1,0 +1,33 @@
+body { background-color: lightblue; }
+h1 { color: darkblue; text-align:center; font-family: Arial, Verdana, sans-serif;}
+h2 { color: white; font-family: Arial, Verdana, sans-serif;} 
+h3 { color: darkcyan; 
+	font-family: Arial, Verdana, sans-serif; 
+	text-shadow:4px 4px 3px peachpuff;
+}
+.text { text-transform: uppercase; }
+ul > li { color: darkgoldenrod;  
+	text-transform: none; 
+	text-transform: none; l
+	line-height: 1.8;
+}
+ol > li { color: darkgoldenrod; margin-right: 40%; text-transform: none; line-height: 1.8;}
+body { background-image: url('images/stew.jpg'); 
+	background-repeat: no-repeat; 
+	background-position-x: 800px;
+	background-position-y: 800px;
+	background-size: 150px;
+
+}
+h1 { border: goldenrod dotted;
+	padding: 10px;
+	border-radius: 50px;
+	border-width: 10px;
+}
+h2{
+	box-shadow: 15px 15px orange;
+	background-color: darkblue;
+	width: 400px;
+	padding: 20px;
+
+}
