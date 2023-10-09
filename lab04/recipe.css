@@ -1,0 +1,70 @@
+body { 
+	background-color: lightblue;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+ }
+h1 { color: darkblue; text-align:center; font-family: Arial, Verdana, sans-serif;}
+h2 { color: white; font-family: Arial, Verdana, sans-serif;} 
+h3 { color: darkcyan; 
+	font-family: Arial, Verdana, sans-serif; 
+	text-shadow:4px 4px 3px peachpuff;
+}
+.text { text-transform: uppercase; }
+ul > li { color: darkgoldenrod;  
+	text-transform: none; 
+	line-height: 160%;
+}
+ol > li { 
+	color: darkgoldenrod; 
+	margin-right: 10%; 
+	text-transform: none; 
+	line-height: 1.8;}
+body { background-image: url('images/jollofrice2.webp'); 
+	background-repeat: no-repeat; 
+	background-position-x: 930px;
+	background-position-y: 1200px;
+	background-size: 150px;
+
+}
+h1 { border: goldenrod dotted;
+	padding: 10px;
+	border-radius: 30px;
+	border-width: 10px;
+}
+h2{
+	box-shadow: 15px 15px orange;
+	background-color: darkblue;
+	width: 400px;
+	padding: 20px;
+
+}
+
+#wrapper {  
+	width: 25%;
+	border: solid darkslateblue;
+	padding-right: 40px;
+	padding-bottom: 125px;
+	padding-top:6px;
+	float: left;
+	margin-top: 18px;
+	padding-left: 5px;
+}
+#mapper { 
+	width: 69%;
+	float: right;
+	bottom: 0px;
+	border: solid darkslateblue;
+	margin-top: auto;
+	padding-left: 5px;
+
+}
+#whopper { 
+	border: solid darkblue thick;
+	margin-top: 58.5%;
+	padding-left: 10px;
+ }
+ .more { width: 790px; line-height: 1.5;  }
+ a:link { color: darkslateblue; }
+ a:visited { color: red; }
+ a:hover { color: orange; }
