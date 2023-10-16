@@ -33,7 +33,7 @@ div { margin-top: 40px;
  }
 
 
-.back { background-image: url('https://cars.mclaren.com/content/dam/mclaren-automotive/models/720s/720s-spider/sustainment-2021/images/720S_Spider_Front34_Static.jpg');
+.back { background-image: url('Images/mclaren.jpg');
 	color: white;
 	background-size: 1400px 760px;
 	background-repeat: no-repeat;
@@ -46,5 +46,12 @@ div { margin-top: 40px;
 	color: black;
  }
 .mimagine { background-color: #EE3E3E; }
-.vback {  }
+.vback { background-image: url('Images/strawhat.png');
+	color: white;
+	background-size: 1800px 960px;
+	background-repeat: no-repeat; }
 .vimagine { background-color: #D9B466; }
+.home { color: white; margin-right: 0px; 
+	border:  2px solid #000000; 
+	padding: 20px; 
+}
