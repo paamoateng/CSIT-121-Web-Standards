@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Q&A</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #000;
+            width: 80%;
+        }
+
+        h1 {
+            color: white;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: white;
+            margin-top: 20px;
+
+        }
+
+        p {
+            color: white;
+            line-height: 1.5;
+        }
+
+        code {
+            background-color: black;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        p, li, pre { color: white; }
+
+    </style>
+</head>
+
+<body>
+    <h1>Web Development Q&A</h1>
+
+    <h2>What is XML?</h2>
+    <p>XML (eXtensible Markup Language) is a markup language that defines rules for encoding documents in a format that is both human-readable and machine-readable.</p>
+
+    <h2>How is XML used?</h2>
+    <p>XML is used to store and transport data, and it is commonly used in web development for representing structured information that can be easily parsed and processed.</p>
+
+    <h2>What does XML look like? (provide an example)</h2>
+    <code>
+          <pre>
+        &lt;library&gt;
+            &lt;book isbn="978-0-13-449416-6"&gt;
+                &lt;title&gt;HTML and CSS: Design and Build Websites&lt;/title&gt;
+                &lt;author&gt;Jon Duckett&lt;/author&gt;
+                &lt;publication_year&gt;2011&lt;/publication_year&gt;
+                &lt;genre&gt;Web Development&lt;/genre&gt;
+            &lt;/book&gt;
+            
+            &lt;book isbn="978-1-4493-8090-2"&gt;
+                &lt;title&gt;Eloquent JavaScript: A Modern Introduction to Programming&lt;/title&gt;
+                &lt;author&gt;Marijn Haverbeke&lt;/author&gt;
+                &lt;publication_year&gt;2018&lt;/publication_year&gt;
+                &lt;genre&gt;Programming&lt;/genre&gt;
+            &lt;/book&gt;
+            
+            &lt;magazine issn="1234-5678"&gt;
+                &lt;title&gt;National Geographic&lt;/title&gt;
+                &lt;editor-in-chief&gt;Susan Goldberg&lt;/editor-in-chief&gt;
+                &lt;publication_month&gt;December&lt;/publication_month&gt;
+                &lt;publication_year&gt;2022&lt;/publication_year&gt;
+            &lt;/magazine&gt;
+            
+            &lt;book isbn="978-1-118-92209-6"&gt;
+                &lt;title&gt;JavaScript and jQuery: The Missing Manual&lt;/title&gt;
+                &lt;author&gt;David Sawyer McFarland&lt;/author&gt;
+                &lt;publication_year&gt;2014&lt;/publication_year&gt;
+                &lt;genre&gt;Web Development&lt;/genre&gt;
+            &lt;/book&gt;
+        &lt;/library&gt;
+    </pre>
+    </code>
+
+    <h2>What is JavaScript?</h2>
+    <p>JavaScript is a programming language that enables interactive web pages. It is commonly used for client-side scripting to add dynamic behavior to HTML pages.</p>
+
+    <h2>How is JavaScript related to HTML and CSS?</h2>
+    <p>JavaScript is often used in conjunction with HTML and CSS to create dynamic and interactive web pages. HTML provides the structure, CSS styles the presentation, and JavaScript adds behavior and interactivity.</p>
+
+    <h2>What are some common JavaScript elements, properties, methods, and functions? (provide at least 1 example of each)</h2>
+    <ul>
+    <li>Elements: <br>
+        <code>
+            document.getElementById('example'); <br>
+            document.querySelector('.example');
+        </code>
+    </li><br>
+
+    <li>Properties: <br>
+        <code>
+            element.style.color = 'blue'; <br>
+            window.innerWidth;
+        </code>
+    </li><br>
+
+    <li>Methods: <br>
+        <code>
+            alert('Hello, World!'); <br>
+            element.addEventListener('click', myFunction);
+        </code>
+    </li><br>
+
+    <li>Functions: <br>
+        <code>
+            function addNumbers(a, b) {
+                return a + b;
+            } <br>
+            function myFunction() {
+                // code here
+            }
+        </code>
+    </li>
+</ul>
+
+</body>
+
+</html>
