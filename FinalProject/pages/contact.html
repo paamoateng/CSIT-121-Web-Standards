@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../project.css">
+    <title>My Project - Contact</title>
+</head>
+
+<body>
+    <div id="contact">
+    <header>
+        <h1>My Final Project</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Us</h2>
+        <!-- Content for the home page -->
+         <form method="get" action="#">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fmail">First Name:</label>
+                <input type="text" name="fmail" id="fmail" title="Enter your first name" required><br><br>
+
+                <label for="lmail">Last Name:</label>
+                <input type="text" name="lmail" id="lmail" title="Enter your last name" required><br><br>
+
+                <label for="email">E-mail:</label>
+                <input type="text" name="email" id="email" title="Enter your email address" required><br><br>
+
+                <label for="cuisine">Favorite Cuisine:</label>
+                <input type="text" name="cuisine" id="cuisine" list="cuisines" title="Select your favorite cuisine" required>
+                <datalist id="cuisines">
+                    <!-- Your cuisine options here -->
+                </datalist><br><br>
+
+                <label>Subscribe to a mailing list?</label>
+                <input type="radio" id="Yes" name="subscribe" value="Yes">
+                <label for="Yes">Yes</label>
+                <input type="radio" id="No" name="subscribe" value="No">
+                <label for="No">No</label><br><br>
+
+                <label for="comments">Comments:</label><br>
+                <textarea name="comments" id="comments" rows="4" cols="40" title="Enter your comments"></textarea><br><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Papa Amoateng. All rights reserved.</p>
+    </footer>
+</div>
+</body>
+
+</html>
